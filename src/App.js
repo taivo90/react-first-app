@@ -38,16 +38,6 @@ function App() {
       <Button color="danger">danger</Button>{' '}
       <Button color="link">link</Button>
 
-      <div>
-      <Spinner color="primary" />
-      <Spinner color="secondary" />
-      <Spinner color="success" />
-      <Spinner color="danger" />
-      <Spinner color="warning" />
-      <Spinner color="info" />
-      <Spinner color="light" />
-      <Spinner color="dark" />
-    </div>
     </div>
     </div>
   );
