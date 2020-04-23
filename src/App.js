@@ -20,13 +20,6 @@ function App() {
   const str = moment.duration(1, "minutes").humanize(true);
   return (
     <div className="App">
-      <ul>
-        {collections.map( collection =>{
-          return (
-          <li>{collection.title} - {collection.author}</li>
-          )
-        })}
-      </ul>
       <Material />
       <Card />
       <div>
